@@ -1,0 +1,20 @@
+[project]
+name = "steadyrouter"
+description = "SteadyRouter for ComfyUI: chat, image and video models (Nano Banana, GPT Image, Seedream, Qwen Image, Seedance, Wan, Vidu and hundreds of language models) through one API key. No GPU needed."
+version = "0.1.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["requests"]
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/steadyrouter/comfyui-steadyrouter"
+Documentation = "https://www.steadyrouter.com/site/docs.html"
+"Bug Tracker" = "https://github.com/steadyrouter/comfyui-steadyrouter/issues"
+
+[tool.comfy]
+PublisherId = "steadyrouter"
+DisplayName = "SteadyRouter"
+Icon = "https://raw.githubusercontent.com/steadyrouter/comfyui-steadyrouter/main/icon.svg"
+requires-comfyui = ">=0.14.0"
+includes = []
