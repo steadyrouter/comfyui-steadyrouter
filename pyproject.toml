@@ -1,7 +1,7 @@
 [project]
 name = "steadyrouter"
 description = "SteadyRouter for ComfyUI: chat, image and video models (Nano Banana, GPT Image, Seedream, Qwen Image, Seedance, Wan, Vidu and hundreds of language models) through one API key. No GPU needed."
-version = "0.1.1"
+version = "0.1.2"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = ["requests"]
